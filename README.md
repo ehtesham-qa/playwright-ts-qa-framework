@@ -1,6 +1,6 @@
 # Playwright TypeScript QA Framework
 
-A scalable and maintainable UI automation framework using **Playwright** with **TypeScript**. Built with real-world QA practices, including **Page Object Model**, reusable methods, JSON-driven test data, and custom fixtures for fast authenticated tests. Supports **smoke and regression suites**, **cross-browser execution**, and **HTML reporting**.
+A scalable and maintainable UI automation framework using Playwright with TypeScript. Built with real-world QA practices, including Page Object Model, reusable methods, JSON-driven test data, and custom fixtures for fast authenticated tests. Supports smoke and regression suites, cross-browser execution, HTML reporting, and Allure reporting.
 
 ## Key Features
 
@@ -11,7 +11,8 @@ A scalable and maintainable UI automation framework using **Playwright** with **
 - Smoke & regression test suites  
 - Cross-browser support (Chromium, Firefox)  
 - HTML reports for test results
-
+- Allure reports for rich test visualization
+  
 ## Run Tests
 
 Install dependencies:  
