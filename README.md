@@ -37,5 +37,25 @@ View HTML report:
 
 npx playwright show-report
 
+Allure report
+npm run report
+
+
+Make sure Allure CLI is installed (npm install -D allure-commandline) and your tests generate results in allure-results/.
+
+Scripts
+
+For convenience, these scripts are defined in package.json:
+
+"scripts": {
+  "test": "playwright test",
+  "report": "npx allure serve allure-results"
+}
+
+
+npm run test → Runs all tests
+
+npm run report → Generates and serves Allure report
+
 
 GitHub: https://github.com/ehtesham-qa
